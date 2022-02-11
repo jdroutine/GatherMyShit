@@ -24,4 +24,5 @@ while run:
             run = False
 
     window.fill((102, 0, 102))  # zmiana tła, kolor podany w rgb
+    pygame.draw.rect(window,(255,255,255),player) # narysowanie gracza (okno,kolor,gracz)
     pygame.display.update()  # zapisuje każdą narysowaną zmianę
